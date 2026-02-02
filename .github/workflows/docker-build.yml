@@ -8,7 +8,7 @@ on:
 jobs:
   build-and-push:
     # GitHub'ın kendi sunucularında build yapıyoruz (Pi'yi yormamak için en mantıklısı bu)
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout code
