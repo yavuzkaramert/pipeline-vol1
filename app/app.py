@@ -1,6 +1,8 @@
 from flask import Flask, jsonify # type: ignore
+from prometheus_flask_exporter import PrometheusMetrics # type: ignore
 
 app = Flask(__name__)
+metrics = PrometheusMetrics(app)
 
 @app.route('/')
 def home():
