@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: yavuzkaramert/flask-app:5fff470ed04d4492270c6a794a8e9f890361a493
+        image: yavuzkaramert/flask-app:45029f3663e470d22f1c7b1bce2ddaf69a0b2cdf
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
